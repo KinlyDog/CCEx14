@@ -1,0 +1,41 @@
+3.1
+
+
+
+
+
+3.2
+// 1
+int y = 0; // счетчик
+-
+int stringCounter = 0;
+
+// 2
+String path = "."; // задаем рабочий каталог
+-
+String workingDirectoryPath = ".";
+
+// 3
+class Car extends Transport {
+    private int pasMax; // маскимальное кол-во пассажиров
+    -
+    private int maxNumberOfSeats;
+}
+
+// 4
+class Child extends People {
+    private int stamina; // выносливость
+    private int happy; // уровень счастья
+    -
+    private int enduranceLevel;
+    private int happinessLevel;
+}
+
+// 5
+int x = 10; // необходимая длина новой строки
+int y = 7; // позиция начала создания новой строки
+char[] rezult = new char [x]; // результирующая строка
+-
+int substringLength = 10;
+int substringStartIndex = 7;
+char[] substring = new char[substringLength];
